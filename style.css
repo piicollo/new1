@@ -1,0 +1,59 @@
+.head {
+    text-align: center;
+    color: rgb(187, 209, 187);
+    font-family: impact;
+    background-color: rgb(34, 34, 4);
+    letter-spacing: 10px;
+}
+.head:hover {
+    font-size: 40px;
+    background-color: blue;
+}
+
+.odd p:nth-child(odd){
+    color: white;
+    background-color: black;
+}
+.frm {
+    border: none;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    background-image: url(key.jpg);
+    color: white;
+    background-size: cover;
+    font-family: cursive;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    font-family: impact;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    font-size: 15px;
+    background-color: aqua;
+}
+.frm input {
+    cursor: text;
+}
+
+.btn {
+    color: green;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-family: impact;
+    letter-spacing: 3px;
+    font-size: 10px;
+}
+.btn:hover {
+    font-size: 13px;
+    background-color: lightblue;
+}
