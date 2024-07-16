@@ -24,6 +24,7 @@
     color: white;
     background-size: cover;
     font-family: cursive;
+    
 }
 
 button {
@@ -34,6 +35,7 @@ button {
     margin: 5px 10px 5px 10px;
     border: none;
     cursor: pointer;
+    text-align:center;
 }
 button:hover {
     font-size: 15px;
@@ -55,5 +57,160 @@ button:hover {
 }
 .btn:hover {
     font-size: 13px;
+    background-color: lightblue;
+}
+
+#hell {
+    text-align: center;
+    background-color: aquamarine;
+    color: rgb(91, 35, 25);
+}
+#hell:hover {
+   border: 1px solid white;
+   background-color: aqua;
+}
+.h1 {
+    font-size: 4em;
+    text-align: center;
+    border: 0.02em solid black;
+    background-color: aqua;
+    letter-spacing: 0.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#one {
+    color: white;
+    background-color: blue;
+    font-family: impact;
+    text-align: center;
+    letter-spacing: 0.2cm;
+    font-size: 1cm;
+    border: 0.1cm solid black;
+}
+.two {
+    font-size: 10mm;
+    text-align: center;
+    background-color: aqua;
+    letter-spacing: 5mm;
+}
+.two:hover {
+    background-color: rgb(18, 52, 52);
+
+}
+.three {
+    color: rgb(5, 67, 5);
+    text-align: center;
+    letter-spacing: 0.2in;
+}
+.three:hover {
+    background-color: aqua;
+}
+#four {
+    color: darkblue;
+    text-align: right;
+    letter-spacing: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#four:hover {
+    background-color: green;
+}
+.five {
+    color: rgb(255, 255, 137);
+    font-size: 30pt;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+}
+#six {
+    color: gray;
+    border: 0.1pc solid green;
+    border-radius: 0.2cm;
+}
+.gress h1 {
+    color: green;
+    background-color: aqua;
+    padding: 15px 15px 15px 15px;
+    border: 0.02ex solid green;
+    border-radius: 1ex;
+}
+#home h1 {
+    color: red;
+    letter-spacing: 1ch;
+    border-radius: 0.5ch;
+    border: 0.1ch solid green;
+    padding: 20px 20px 20px 20px;
+}
+
+.hello1 {
+    color: tomato;
+    background-color: aqua;
+    /* padding: 5px 5px 5px 5px; */
+    /* margin: 10px 10px 10px 10px; */
+    font-size: 2vw;
+    text-align: center;
+    border: 0.2vw solid rgb(54, 54, 118);
+    border-radius: 0.5vw;
+}
+
+.hello1:hover {
+    transform: rotate(10deg);
+}
+
+#hello2 {
+    color: white;
+    background-color: rgb(17, 53, 53);
+    font-family: verdana;
+    text-align: center;
+    border: 0.5vh solid black;
+    font-size: 5vh;
+    letter-spacing: 3vh;
+}
+
+#hello2:hover {
+    font-family: cursive;
+}
+#hello3 {
+    font-family: cursive;
+    border: 0.5vmin solid green;
+    text-align: center;
+    border-radius: 1vmin;
+}
+
+.hello4{
+    text-align: center;
+    font-family: cursive;
+    border: 1vmax solid green;
+    border-radius: 1vmax;
+    letter-spacing: 1vmax;
+}
+.hello4:hover {
+    font-family: impact;
+    background-color: aqua;
+}
+.hello5 {
+    color: green;
+    border: 1px solid green;
+    border-radius: 1%;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.hello5:hover {
+    font-family: impact;
+    background-color: blue;
+    color: white;
+    letter-spacing: 20px;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.eye {
+    font-size: 1em;
+}
+.one {
+    background-color: yellow;
+    text-align: right;
+    font-size: 4em;
+}
+#two {
+    font-size: 5rem;
     background-color: lightblue;
 }
